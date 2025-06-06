@@ -18,7 +18,7 @@ try:
     tab_button_location = pyautogui.locateCenterOnScreen('tab_button.png', confidence=0.8)
     if tab_button_location is not None:
         print("Tab button detected, clicking at (1342, 125)...")
-        click_at(1341, 174)
+        pyautogui.click(1339, 175)
         time.sleep(2)
     else:
         print("Tab button not detected, proceeding to Step 1...")
