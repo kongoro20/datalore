@@ -45,7 +45,7 @@ time.sleep(random.uniform(0.5, 1))
 time.sleep(6)
 subprocess.run(['python3', 'write.py'])
 
-time.sleep(2100)
+time.sleep(2500)
 
 pyautogui.hotkey('ctrl', 't')
 time.sleep(1)
