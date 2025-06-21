@@ -2,8 +2,6 @@
 
 
 scripts=(
-  "save.py"
-  "profile-txt.py"
   "boocle.py"
 )
 
