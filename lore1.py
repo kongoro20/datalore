@@ -44,9 +44,8 @@ random_click_in_area((193, 487), (343, 493))
 time.sleep(random.uniform(0.5, 1))
 time.sleep(6)
 subprocess.run(['python3', 'write.py'])
-time.sleep(5)
-subprocess.run(['python3', 'terminate.py'])
-time.sleep(4)
+
+time.sleep(2500)
 
 pyautogui.hotkey('ctrl', 't')
 time.sleep(1)
